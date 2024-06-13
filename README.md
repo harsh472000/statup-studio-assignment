@@ -10,11 +10,11 @@ To clone this project and run it locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/harsh472000/harsh-startup-studio-assignement.git
+   git clone https://github.com/harsh472000/startup-studio-assignement.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd harsh-statup-studio-assignement
+    cd statup-studio-assignement
     ```
 3. Install dependencies:
     ```bash
