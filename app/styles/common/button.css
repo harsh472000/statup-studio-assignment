@@ -1,0 +1,15 @@
+.button {
+    padding: 13px 47px;
+    margin-left: 10px;
+    background-color: var(--background-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width:480px){
+    .button{
+      padding: 14px 20px;
+    }
+  }

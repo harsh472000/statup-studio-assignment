@@ -1,0 +1,32 @@
+.card-container{
+    width: 290px;
+}
+
+.card-container__information{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__subtitle{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.information__subtitle > a{
+    text-decoration: underline;
+}
+
+.information__wishlist-icon{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media (max-width:480px){
+    .card-container, .card-container__image > img{
+        width: 167px;
+    }
+    .card-container__image > img{
+        height: 224px;
+    }
+}
